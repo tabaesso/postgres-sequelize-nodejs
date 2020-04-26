@@ -1,0 +1,21 @@
+{
+  "name": "postgres-sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tabaesso/postgres-sequelize-nodejs.git",
+  "author": "Tábata Baesso <tatabaesso@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}
