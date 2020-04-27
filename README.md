@@ -1,4 +1,4 @@
-# postgres-sequelize-nodejs
+# 🐘 postgres-sequelize-nodejs
 ## Requirements
 
 -  Yarn
