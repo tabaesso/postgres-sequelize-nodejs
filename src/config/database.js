@@ -1,11 +1,11 @@
 module.exports = {
     dialect: 'postgres',
-    host: 'postgres',
-    username: 'root-postgres',
-    password: 'password-postgres',
-    database: 'postgres',
+    host: 'drona.db.elephantsql.com',
+    username: 'ueovahsi',
+    password: 'M7JBDYwJ24FJZmQLmBkNaHmMJEJmhf0W',
+    database: 'ueovahsi',
     port: 5432,
-    // ssl: true,
+    ssl: true,
     define: {
         timestamps: true,
         underscored: true,
