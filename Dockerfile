@@ -12,6 +12,6 @@ COPY . .
 # RUN npx -p @babel/cli -p @babel/core babel src --out-dir dist --copy-files --extensions '.js'
 # RUN yarn build
 
-EXPOSE 8080
+EXPOSE 3333
 
 CMD [ "node", "src/server.js" ]
